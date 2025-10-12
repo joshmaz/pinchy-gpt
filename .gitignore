@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+\.venv/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Build outputs
+dist/
+build/

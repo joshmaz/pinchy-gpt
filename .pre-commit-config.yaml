@@ -1,0 +1,30 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.0
+    hooks:
+      - id: codespell
+        args: ["--ignore-words=docs/IGNORE_WORDS.txt"]
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli2
+    rev: v0.40.0
+    hooks:
+      - id: markdownlint-cli2
+        files: \.(md|MD)$
+
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.30.0
+    hooks:
+      - id: yamllint
+
+  - repo: https://github.com/koalaman/shellcheck
+    rev: v0.9.0
+    hooks:
+      - id: shellcheck
+        files: scripts/.*\.(sh)$
