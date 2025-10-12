@@ -1,11 +1,24 @@
+```markdown
+---
 title: ""
 url: ""
 publisher: ""
 published: "YYYY-MM-DD"
 tags: ["news","nepl"]
+---
 
-key point 1
+- key point 1
+- key point 2
+- key point 3
 
-key point 2
+---
+title: ""
+url: ""
+publisher: ""
+published: "YYYY-MM-DD"
+tags: ["news","nepl"]
+---
 
-key point 3
+- key point 1
+- key point 2
+- key point 3

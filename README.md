@@ -34,6 +34,8 @@ See the repository tree for where to add docs, data sources, and prompts. Import
 - `gpt/` - Prompts and packaging info for Pinchy-GPT
 - `scripts/` - Local validation and formatting scripts
 
+See `docs/pinchy/` for the current system-prompt and contributor guidance, and `docs/nepl/` for NEPL-specific notes.
+
 ## Where to add new NEPL source docs
 
 - Put short, evergreen article summaries in `data/sources/news/` using the `_template.md` file.
