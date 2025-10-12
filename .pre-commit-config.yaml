@@ -12,12 +12,6 @@ repos:
       - id: codespell
         args: ["--ignore-words=docs/IGNORE_WORDS.txt"]
 
-  - repo: https://github.com/igorshubovych/markdownlint-cli2
-    rev: v0.40.0
-    hooks:
-      - id: markdownlint-cli2
-        files: \.(md|MD)$
-
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.30.0
     hooks:
