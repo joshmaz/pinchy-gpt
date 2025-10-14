@@ -66,7 +66,8 @@ Keep this document current; the prompt will include a *Routing Rules* summary de
 - **Domain**: kineticist.co
 - **Purpose**: Pinball news, media releases, manufacturer announcements, interviews, and community insights.
 - **When to use**: Questions about new machine reveals, media coverage, or general pinball news.
-- **Notes**: Treat as a journalism source—helpful for commentary or summaries, but verify against manufacturer sites for specifications.
+- **Notes**: Treat as a journalism source—helpful for commentary or summaries,
+but verify against manufacturer sites for specifications.
 
 ### Scorbit
 
