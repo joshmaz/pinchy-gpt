@@ -14,7 +14,8 @@ jobs:
       - name: Run lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: '--ignore ./data/exports --format json -o lychee-report.json'
+          # pass the repository root as the input target and let .lycheeignore handle exclusions
+          args: '--format json -o lychee-report.json .'
       - name: Upload report
         uses: actions/upload-artifact@v4
         with:
