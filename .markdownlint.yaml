@@ -4,6 +4,8 @@ MD013:
   code_blocks: true
   tables: true
 
+MD041: false
+
 exclude:
   - node_modules
   - vendor
