@@ -1,0 +1,9 @@
+[project]
+name = "pinchy-scraper"
+version = "2.0.0"
+description = "NEPL season scraper"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+]
+requires-python = ">=3.8"
