@@ -1,0 +1,17 @@
+# Lists each dataset Pinchy can cite.
+# Add entries as you upload files.
+
+datasets:
+  - id: locations_by_night
+    path: data/locations_by_night.csv
+    format: csv
+    source: "https://nepl.org"   # TODO: replace with canonical page if different
+    last_refreshed: "2025-10-28"
+    notes: "Single league night per location; include alternation notes in a column."
+
+  - id: leadership_contacts
+    path: data/leadership_contacts.md
+    format: md
+    source: "https://nepl.org"
+    last_refreshed: "2025-10-28"
+    notes: "Public contact methods only."

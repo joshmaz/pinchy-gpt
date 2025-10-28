@@ -1,0 +1,5 @@
+# Pinchy is content-only; keep it simple.
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
